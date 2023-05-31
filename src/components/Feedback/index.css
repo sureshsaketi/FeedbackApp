@@ -1,0 +1,62 @@
+/* Write your CSS code here. */
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  background-color: #ffffff;
+  border-radius: 18px;
+  min-height: 300px;
+  width: 300px;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-container {
+    width: 500px;
+  }
+}
+.feedback-text {
+  color: #0f172a;
+  text-align: center;
+  font-size: 24px;
+  font-size: 500;
+}
+ul {
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.emoji-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.emoji {
+  height: 60px;
+  width: 60px;
+}
+.emoji-text {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+}
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.love-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.response-text {
+  text-align: center;
+}
